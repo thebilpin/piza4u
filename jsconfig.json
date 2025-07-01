@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": false, // This will disable strict JS checking
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx", "next.config.js", "src/pages/feature-products/[slug]", "src/pages/feature-products/[slug]"],
+  "exclude": ["node_modules", ".next", "dist"]
+}
